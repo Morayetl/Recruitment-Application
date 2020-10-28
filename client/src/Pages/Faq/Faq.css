@@ -1,0 +1,11 @@
+
+.faq-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.faq-page-item{
+    padding: 20px;
+    border-radius: 4px;
+}

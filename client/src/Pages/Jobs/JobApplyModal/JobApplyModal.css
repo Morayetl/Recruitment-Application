@@ -1,0 +1,18 @@
+.apply-modal-button-join-today{
+    background: #1D2671 !important;
+    min-height: 200px;
+    border-radius: 2px 2px 0 0;
+    color: white;
+}
+
+.apply-modal-button-join-today h1{
+    color: white;
+}
+
+.join-today-modal .ant-modal-close-icon svg{
+    color: white;
+}
+
+.join-today-modal .ant-modal-close-icon svg:hover{
+    color: grey;
+}

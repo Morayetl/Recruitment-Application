@@ -1,0 +1,9 @@
+/node_modules
+/build
+/mongo-backup
+/resources
+/dist
+/logs
+/public
+
+tmp.zip

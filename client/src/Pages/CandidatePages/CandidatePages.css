@@ -1,0 +1,33 @@
+@media (min-width: 768px) {
+    .sidemenu-border {
+      border-right: 1px solid rgba(0, 0, 0, 0.1);
+    }
+}
+
+@media (min-width: 768px) {
+    .employer-page-content {
+      padding-left: 20px;
+    }
+}
+
+.employer-page-jumbotron {
+  background: white;
+  color: white;
+  border-bottom: 1px solid rgba(1,1,1,0.2);
+}
+
+.employer-page {
+  display: flex;
+  display: -webkit-box;   /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+  display: -ms-flexbox;  /* TWEENER - IE 10 */
+  display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+  flex-direction: column;
+  height: 100%;
+}
+.employer-page .container {
+  flex: 1 1 auto;
+}
+
+.candidate-page-header{
+  margin: 20px 0px 20px 0px !important;
+}

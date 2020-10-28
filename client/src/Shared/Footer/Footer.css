@@ -1,0 +1,25 @@
+.footer{
+  background:rgba(29, 38, 113, 1);
+}
+
+.footer button{
+  border: none;
+  background: white;
+  color: black;
+  transform: color 0.2s, background 0.2s, border 0.2;
+  margin: 10px;
+}
+
+.footer button:hover{
+  background: rgba(195, 55, 100, 1);
+  color: white;
+}
+
+.footer .text{
+  color: lightgray;
+  margin: 10px;
+}
+
+.footer .container{
+  padding: 15px 0 15px;
+}

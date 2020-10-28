@@ -1,0 +1,12 @@
+.login-modal-button{
+    /* border: solid 1px blue !important; */
+    /* padding: 6px 10px 6px 10px; */
+    /* border-radius: 4px; */
+    transition: color 0.3s;
+}
+
+.login-modal-button:hover{
+    /* border: solid 1px rgba(0, 0, 255, 0.4) !important; */
+    color: #1890ff !important;
+    transition: color 0.3s;
+}

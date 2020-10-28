@@ -1,0 +1,103 @@
+.login-form-container {
+    border: solid 1px black;
+    border-radius: 6px;
+}
+
+.login-form-container {
+    margin: auto;
+    padding: 20px 20px 0px 20px;
+}
+
+.login-container {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+
+.login-form {
+    max-width: 300px;
+}
+
+.login-form-forgot {
+    float: right;
+}
+
+.login-form-button {
+
+    width: 100%;
+}
+
+.product-page .card {
+    width: auto;
+    margin: 13px;
+    border-radius: 4px;
+    background: white;
+}
+
+.product-page .card:hover {
+    /*color: white;*/
+    margin-top: 3px;
+}
+
+.product-page .card:hover.gold {
+    border: none;
+    box-shadow: 0 3px 6px rgba(0,0,0,.16), 0 3px 6px rgba(110,80,20,.4),
+    inset 0 -2px 5px 1px rgba(139,66,8,1),
+    inset 0 -1px 1px 3px rgba(250,227,133,1);
+    background-image: linear-gradient(160deg, #a54e07, #b47e11, #fef1a2, #bc881b, #a54e07);
+    border: 1px solid #a55d07;
+}
+.product-page .card:hover.silver {
+    border: none;
+    box-shadow: 0 3px 6px rgba(0,0,0,.16), 0 3px 6px rgba(110,80,20,.4),
+    inset 0 -2px 5px 1px #8b8b8e,
+    inset 0 -1px 1px 3px rgba(230,230,231, 1);
+    background-image: linear-gradient(160deg, #525153, #afafb1, #f0f0f1, #afafb1, #b8b7ba);
+}
+
+.product-page .card:hover.bronze {
+    border: none;
+    box-shadow: 0 3px 6px rgba(0,0,0,.16), 0 3px 6px rgba(110,80,20,.4),
+    inset 0 -2px 5px 1px #cd6532,
+    inset 0 -1px 1px 3px #cd9932;
+    background-image: linear-gradient(160deg, #cd5832, #cd5832, #cd8c32, #cd5832, #cd5832);
+}
+
+.product-page .card .ant-card-body{
+    padding: 15px;
+}
+
+.product-page .card .card-header{
+    background: white;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 4px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.product-page .card .ant-card-body .gold:hover{
+    border: none;
+    box-shadow: 0 3px 6px rgba(0,0,0,.16), 0 3px 6px rgba(110,80,20,.4),
+    inset 0 -2px 5px 1px rgba(139,66,8,1),
+    inset 0 -1px 1px 3px rgba(250,227,133,1);
+    background-image: linear-gradient(160deg, #a54e07, #b47e11, #fef1a2, #bc881b, #a54e07);
+    border: 1px solid #a55d07;
+}
+
+.product-page .card .ant-card-body .silver:hover{
+    border: none;
+    box-shadow: 0 3px 6px rgba(0,0,0,.16), 0 3px 6px rgba(110,80,20,.4),
+    inset 0 -2px 5px 1px #8b8b8e,
+    inset 0 -1px 1px 3px rgba(230,230,231, 1);
+    background-image: linear-gradient(160deg, #525153, #afafb1, #f0f0f1, #afafb1, #b8b7ba);
+}
+
+.product-page .card .ant-card-body .bronze:hover{
+    border: none;
+    box-shadow: 0 3px 6px rgba(0,0,0,.16), 0 3px 6px rgba(110,80,20,.4),
+    inset 0 -2px 5px 1px #cd6532,
+    inset 0 -1px 1px 3px #cd9932;
+    background-image: linear-gradient(160deg, #cd5832, #cd5832, #cd8c32, #cd5832, #cd5832);
+}
+
+

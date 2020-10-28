@@ -1,0 +1,72 @@
+{
+  "name": "recruitment-app",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@ant-design/icons": "^4.0.5",
+    "@antv/g2plot": "^0.11.34",
+    "antd": "^3.26.18",
+    "axios": "^0.19.0",
+    "braintree-web": "^3.57.0",
+    "braintree-web-drop-in": "^1.21.0",
+    "d3-ease": "^1.0.6",
+    "i18next": "^19.0.3",
+    "i18next-browser-languagedetector": "^4.0.1",
+    "i18next-xhr-backend": "^3.2.2",
+    "js-cookie": "^2.2.1",
+    "js-file-download": "^0.4.10",
+    "libphonenumber-js": "^1.7.38",
+    "moment": "^2.24.0",
+    "quill": "^1.3.7",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-g2plot": "^0.1.0",
+    "react-ga": "^2.7.0",
+    "react-google-recaptcha": "^2.0.1",
+    "react-helmet": "^6.0.0",
+    "react-i18next": "^11.3.1",
+    "react-redux": "^7.1.3",
+    "react-router-dom": "5.1.2",
+    "react-scripts": "^4.0.0",
+    "react-share": "^4.1.0",
+    "react-spring": "^8.0.27",
+    "react-sticky": "^6.0.3",
+    "redux": "^4.0.4"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --port 3000 --open --mode development --env=dev",
+    "build": "webpack --env=prod"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/preset-react": "^7.12.1",
+    "@svgr/webpack": "^5.2.0",
+    "babel-loader": "^8.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^5.0.0",
+    "file-loader": "^6.1.1",
+    "html-loader": "^1.3.2",
+    "html-webpack-plugin": "^4.0.3",
+    "react-social-icons": "^4.1.0",
+    "terser-webpack-plugin": "^5.0.1",
+    "webpack": "^5.3.0",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.11.0"
+  }
+}

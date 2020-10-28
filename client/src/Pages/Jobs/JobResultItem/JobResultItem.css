@@ -1,0 +1,13 @@
+.hovernow {
+    background-color: red;
+    transition: box-shadow 0.3s ease-in-out;
+    border-radius: 6px;
+}
+
+.hovernow:hover {
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2), 0 0 15px 0 rgba(0, 0, 0, 0.19);
+}
+
+.job-result-item{
+    transition: border-left 0.2s;
+}

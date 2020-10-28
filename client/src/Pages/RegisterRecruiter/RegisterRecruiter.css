@@ -1,0 +1,67 @@
+
+
+.register-recruiter-form {
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2), 0 0 15px 0 rgba(0, 0, 0, 0.19);
+    border: 1px solid  rgba(0, 0, 0, 0.2);
+    padding: 20px !important;
+    border-radius: 4px;
+    background: white;
+
+}
+
+.register-recruiter-form .ant-form-item {
+    margin-bottom: 3px;
+}
+
+input {
+    height: 50px;
+}
+
+.register-recruiter-page {
+    background: #C33764;  /* fallback colour. Make sure this is just one solid colour. */
+    background: -webkit-linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)), url('../../images/register-recruiter.jpg');
+    background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)), url('../../images/register-recruiter.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    min-height: 50vh;
+    flex-direction: column;
+    display: flex;
+}
+.register-recruiter-page .ant-menu-item span, .register-recruiter-page .ant-menu-item a {
+    color: white !important;
+}
+
+.register-recruiter-page .ant-menu-item:hover span, .register-recruiter-page .ant-menu-item:hover a {
+    color: #1890ff !important;
+    -webkit-transition: color 0.3s cubic-bezier(0.645, 0.045, 0.355, 1), border-color 0.3s cubic-bezier(0.645, 0.045, 0.355, 1), background 0.3s cubic-bezier(0.645, 0.045, 0.355, 1), padding 0.15s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: color 0.3s ;
+}
+
+.register-recruiter-page-container {
+    height: 100vh;
+}
+
+.register-recruiter-page-text {
+    margin: 30px;
+}
+/*.register-recruiter-page-text h1, .register-recruiter-page-text p, .register-recruiter-page-text span, .register-recruiter-page-text svg {
+    color: white;
+}*/
+
+.register-recruiter-page-jumbotron button {
+    background: transparent;
+    transition: background 0.3s ;
+    height: 50px
+}
+
+.register-recruiter-page-jumbotron button:hover, .register-recruiter-page-jumbotron button:focus  {
+    background: rgba(29, 38, 113, 0.8);
+    transition: background 0.3s ;
+}
+
+.register-recruiter-page-jumbotron h1, .register-recruiter-page-jumbotron span, .register-recruiter-page-jumbotron p {
+    color: white;    
+}
+

@@ -1,0 +1,137 @@
+.container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  @media (min-width: 576px) {
+    .container {
+      max-width: 576px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .container {
+      max-width: 768px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .container {
+      max-width: 992px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 1200px;
+    }
+  }
+
+/* for selection max height*/
+.ant-select-selection--multiple
+{
+   white-space: nowrap;
+   height: 30px;
+   overflow: auto
+}
+
+.default-header {
+  background:  white;
+  border-bottom: 1px solid rgba(1,1,1,0.2);
+}
+
+.default-background {
+  background:  rgba(0,0,0,0.03);
+}
+
+.flex-page {
+  height: 100%;
+  display: flex;
+
+  flex-direction: column;
+  -webkit-flex-direction: column;
+
+  display: -webkit-box;   /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+  display: -ms-flexbox;  /* TWEENER - IE 10 */
+  display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+}
+
+.flex-page-flex {
+  -webkit-flex: 1 0;
+  flex: 1 0;
+}
+
+.flex-page .container.container-styling {
+  display: flex;
+  display: -webkit-box;   /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+  display: -ms-flexbox;  /* TWEENER - IE 10 */
+  display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+
+  flex-direction: column;
+  flex: 1 1 auto;
+  -webkit-flex: 1 0;
+  background: white;
+  border: 1px solid rgba(0,0,0,0.1);
+  margin: 5px auto 10px;
+  padding: 10px;
+}
+
+.no-border {
+  border: 0px !important;
+}
+
+.ant-table-content td{
+  padding: 8px 16px 8px 16px !important;
+}
+
+.ant-spin-container {
+  border: 1px solid rgba(0,0,0,0.1);
+  border-bottom: 0;
+}
+
+.ant-menu-item{
+  border: 0 !important;
+}
+
+.text-overflow{
+  overflow:hidden;
+  display:inline-block;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.selectable-list.item {
+  border: 1px solid rgba(0,0,0,0.2);
+  border-radius: 4px;
+  margin: 20px 10px 0px 10px;
+  color: rgba(0,0,0,0.4);
+  transition: color .2s, box-shadow .2s;
+  padding: 20px 20px 20px 20px;
+}
+
+.selectable-list.item:hover{
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
+}
+
+.cookie-policy-popup{
+  position: fixed;
+  z-index: 2;
+  bottom: 15px;
+  right: 10px;
+  margin-left: 10px;
+}
+
+.cookie-policy-popup-content{
+  color: white;
+  width: auto;
+  margin: auto;
+  background: rgba(0,0,0,0.8);
+  border-radius: 2px;
+  padding: 10px;
+  border: 1px solid gray
+}
+
+.cookie-policy-popup-content h2{
+  color: white;
+}

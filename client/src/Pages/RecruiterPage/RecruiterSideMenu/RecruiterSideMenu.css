@@ -1,0 +1,7 @@
+.employer-side-menu .ant-menu-item-selected{
+    background-color: transparent !important;
+}
+
+.employer-side-menu .ant-menu-inline, .employer-side-menu li.ant-menu-item::after{
+    border-right: none !important;
+}
