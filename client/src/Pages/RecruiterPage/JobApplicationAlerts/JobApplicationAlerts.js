@@ -3,7 +3,6 @@ import './JobApplicationAlerts.css';
 import { Table, Tooltip, Button, Icon, Row, Modal, Select, Col } from 'antd';
 import JobApplicationAlertsAddModal from './JobApplicationAlertsAddModal/JobApplicationAlertsAddModal';
 import { withTranslation } from 'react-i18next';
-//import { Affix, Button, Menu, Icon } from 'antd';
 
 const { confirm } = Modal;
 const { Option } = Select;

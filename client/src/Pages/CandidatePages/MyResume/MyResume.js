@@ -7,8 +7,6 @@ import axios from '../../../Utils/axios';
 import { setResume } from '../../../redux/actions/resume.actions';
 import WorkExperience from './WorkExperience/WorkExperience';
 import ProfessionalSkills from './ProfessionalSkills/ProfessionalSkills';
-import i18next from 'i18next';
-//import { Affix, Button, Menu, Icon } from 'antd';
 
 class MyResume extends React.Component {
 

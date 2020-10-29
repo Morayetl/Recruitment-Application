@@ -1,6 +1,5 @@
 import React from 'react';
 import './RegisterRecruiter.css';
-//import { Affix, Button, Menu, Icon } from 'antd';
 import { Row, Icon } from 'antd';
 
 

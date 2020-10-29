@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-//import * as serviceWorker from './serviceWorker';
 import Home from './Pages/Home/Home';
 import Login from './Pages/Login/Login';
 import Jobs from './Pages/Jobs/Jobs';

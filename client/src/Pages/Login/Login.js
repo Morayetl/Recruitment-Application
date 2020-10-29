@@ -1,6 +1,5 @@
 import React from 'react';
 import './Login.css';
-//import { Affix, Button, Menu, Icon } from 'antd';
 import LoginForm from './LoginForm';
 
 class Login extends React.Component {

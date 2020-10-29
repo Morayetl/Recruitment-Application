@@ -1,6 +1,5 @@
 const path = require('path');
 const nodeExternals = require('webpack-node-externals');
-const NodemonPlugin = require('nodemon-webpack-plugin');
 const TerserPlugin = require('terser-webpack-plugin');
 const CopyPlugin = require('copy-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
@@ -20,8 +19,6 @@ module.exports = {
     },
     devServer: {
       contentBase: path.join(__dirname, 'dist'),
-      //compress: true,
-      //port: 8080
     },
     resolve: {
       modules:[path.resolve('./app'), path.resolve('./node_modules')],

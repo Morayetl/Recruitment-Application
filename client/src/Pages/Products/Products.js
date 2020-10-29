@@ -1,6 +1,5 @@
 import React from 'react';
 import './Products.css';
-//import { Affix, Button, Menu, Icon } from 'antd';
 import Header from '../../Shared/Header/Header';
 import { Row } from 'antd';
 import ProductsCard from './ProductsCard';

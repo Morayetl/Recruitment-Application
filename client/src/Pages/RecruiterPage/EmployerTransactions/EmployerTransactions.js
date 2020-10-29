@@ -1,7 +1,6 @@
 import React from 'react';
 import './EmployerTransactions.css';
 import { Table } from 'antd';
-//import { Affix, Button, Menu, Icon } from 'antd';
 import axios from '../../../Utils/axios';
 import moment from 'moment';
 import { withTranslation } from 'react-i18next';

@@ -1,7 +1,6 @@
 import React from 'react';
 import './Packages.css';
 import { Table, Tooltip, Button, Icon, Row } from 'antd';
-//import { Affix, Button, Menu, Icon } from 'antd';
 import moment from 'moment';
 import axios from '../../../Utils/axios';
 import receipt from '../../../icons/receipt.svg';

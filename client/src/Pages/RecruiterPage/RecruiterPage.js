@@ -1,6 +1,5 @@
 import React from 'react';
 import './RecruiterPage.css';
-//import { Affix, Button, Menu, Icon } from 'antd';
 import { Col, Row } from 'antd';
 import Header from '../../Shared/Header/Header';
 import PostJob from './PostJob/PostJob';

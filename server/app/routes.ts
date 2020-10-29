@@ -9,7 +9,6 @@ import paymentController from './controllers/payment-controller';
 import jobAlertController from './controllers/job-alert-controller';
 import fileController from './controllers/protected-file-controller';
 import * as UserModel from "./models/user-model";
-//import captchaController from './controllers/captcha-controller';
 
 import { Request, Response } from "express";
 import { jwtAuthorizeUserMiddleWare } from './utils/JsonWebToken';
@@ -19,7 +18,6 @@ import { USER_ROLES, RATE_LIMIT_USER_LOGIN_WINDOW, RATE_LIMIT_USER_LOGIN_MAX, MO
 
 const express = require('express')
 const router = express.Router();
-const path = require('path');
 
 const RateLimit = require('express-rate-limit');
 const MongoStore = require('rate-limit-mongo');
